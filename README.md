@@ -20,6 +20,6 @@ Run the app using the following and play the game at http://localhost:3000:
 ## Screenshots
 
 ![App Screenshot](./public/img/demo1.png)
-![App Screenshot](/public/img/demo2.png)
-![App Screenshot](sharkwords/public/img/demo3.png)
-![App Screenshot](sharkwords/public/img/demo4.png)
+![App Screenshot](./public/img/demo2.png)
+![App Screenshot](./public/img/demo3.png)
+![App Screenshot](./public/img/demo4.png)
