@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+body {
+	font-family: 'Ubuntu Mono', monospace;
+	font-size: 36px;
+	background-image: url('../public/img/ocean.jpg');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+	font-size: 36px;
+	letter-spacing: 3px;
+	text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.letter-buttons {
+  width: 40%;
+  margin: 12px auto;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#win {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: underline;
+  color: rgb(112, 0, 160);
+  cursor: pointer;
+  margin: 0.67em 0;
+}
+
+#letter-box,
+.letter-box {
+  width: 1.5em;
+  height: 2em;
+  margin: 5px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+button.letter-button {
+	width: 50px;
+	height: 50px;
+	font-size: 24px;
+	font-family: 'Ubuntu Mono', monospace;
+	background: white;
+	margin: 5px 5px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.reset-button {
+  font-size: 14px;
+  font-family: 'Ubuntu Mono', monospace;
+  background: white;
+  margin: 20px auto 10px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  display: block;
+  line-height: 1.6;
+}
+
+button[disabled='true'] {
+  cursor: default;
+}
+
+.shark-images {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
